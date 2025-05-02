@@ -106,6 +106,7 @@ body {
 }
 .header__main .header__menu-icon {
   display: none;
+  stroke: #ffffff;
 }
 .header__main .header__menu-logo {
   width: clamp(9.62rem, 8vw, 16.62rem);

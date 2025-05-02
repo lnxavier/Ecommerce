@@ -11,7 +11,7 @@ export default function setupOfferMobile() {
         indicators.forEach((indicator, i) => {
             const circle = indicator.querySelector('circle');  // get the circle element
             if (i === index) {
-            circle.setAttribute('fill', '#303030');  // active dot
+            circle.setAttribute('fill', '#ffffff');  // active dot
             } else {
             circle.setAttribute('fill', '#838383');  // inactive dot
             }
