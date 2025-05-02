@@ -67,7 +67,7 @@ body {
   flex-direction: column;
   font-family: "Nunito Sans", sans-serif;
   position: fixed;
-  z-index: 10;
+  z-index: 20;
 }
 .header__top-bar {
   display: flex;
@@ -577,7 +577,8 @@ body {
 }
 
 .button:hover {
-  background-color: #0a4cbe;
+  background-color: #7a00ff;
+  color: #ffffff;
 }
 
 .releases {

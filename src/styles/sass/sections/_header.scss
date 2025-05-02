@@ -5,7 +5,7 @@
     flex-direction: column;
     font-family: $secundary-font;
     position: fixed;
-    z-index: 10;
+    z-index: 20;
 
     // Discount message
 
@@ -14,7 +14,7 @@
         justify-content: center;
         align-items: center;
         background-color: $primary-color;
-        color: $secundary-font-color;
+        color: $secundary-color;
         text-align: center;
         width: 100vw;
         padding: .25rem 1.37rem;
@@ -134,7 +134,7 @@
                         .header__menu-cart-amount {
                             font-size: clamp($small-size, .6vw, 1.5rem);
                             background-color: $primary-color;
-                            color: $secundary-font-color;
+                            color: $secundary-color;
                             font-weight: 600;
                             padding: .2rem .5rem;
                             border-radius: 50%;
@@ -342,7 +342,7 @@
 
             .header__dropdown__image__container {
                 position: relative;
-                color: $secundary-font-color;
+                color: $secundary-color;
                 z-index: 1;
                 
                 img {
