@@ -751,7 +751,7 @@ body {
     gap: 0.62rem;
   }
   body main .releases .releases__tabs .releases__tab .releases__list .releases__item {
-    width: clamp(8.9rem, 18vw, 11.5rem);
+    width: clamp(11rem, 18vw, 11.5rem);
     gap: 0.5rem;
   }
   body main .releases .releases__tabs .releases__tab .releases__list .releases__item .releases__description {
